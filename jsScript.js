@@ -94,7 +94,7 @@ function updateTotal() {
     document
         .getElementById('subtotal')
         .innerText = getSubTotal;
-    const tax = getSubTotal * 2 / 100;
+    const tax = getSubTotal * 5 / 100;
 
     document
         .getElementById('tax')
